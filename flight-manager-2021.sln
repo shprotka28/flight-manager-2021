@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "flight-manager-2021", "flight-manager-2021\flight-manager-2021.csproj", "{AAADE95F-1F3E-45D1-B031-2967D8802110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{BD342897-9DED-44F1-9A40-EF95E33B4497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAADE95F-1F3E-45D1-B031-2967D8802110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAADE95F-1F3E-45D1-B031-2967D8802110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAADE95F-1F3E-45D1-B031-2967D8802110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAADE95F-1F3E-45D1-B031-2967D8802110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD342897-9DED-44F1-9A40-EF95E33B4497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD342897-9DED-44F1-9A40-EF95E33B4497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD342897-9DED-44F1-9A40-EF95E33B4497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD342897-9DED-44F1-9A40-EF95E33B4497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A223318C-B114-4CBD-BC36-AD6A2E6B5758}
+	EndGlobalSection
+EndGlobal

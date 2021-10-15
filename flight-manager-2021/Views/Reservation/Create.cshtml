@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Flights";
+}
+@model flight_manager_2021.Models.Reservations.ReservationsCreateViewModel
+
+<div class="content-incasing">
+    <div class="reservation">
+        <div class="reservation-header">
+            <div class="reservation-header-info">
+                <div>
+                    From<br>
+                    @Model.FlightInformation.LocationFrom
+                </div>
+                <div>
+                    To<br>
+                    @Model.FlightInformation.LocationTo
+                </div>
+                <div>
+                    Take off Time<br>
+                    @Model.FlightInformation.TakeOffTime
+                </div>
+                <div>
+                    Landing Time<br>
+                    @Model.FlightInformation.LandingTime
+                </div>
+                <div>
+                    @{
+                        var capacity = Model.FlightInformation.CapacityOfBusinessClass + Model.FlightInformation.CapacityOfEconomyClass;
+                        var count = Model.FlightInformation.CountOfBusinessClass + Model.FlightInformation.CountOfEconomyClass;
+                    }
+                    Seats<br>
+                    @count/@capacity
+                </div>
+            </div>
+        </div>
+        <div class="reservation-form">
+            <form asp-action="CreateReservation">
+                <div class="reservation-form-column">
+                    <input asp-for="FirstName" type="text" id="fname" placeholder="First name" value="">
+                    <input asp-for="SecondName" type="text" id="sname" placeholder="Second name" value="">
+                    <input asp-for="LastName" type="text" id="lname" placeholder="Last name" value="">
+                </div>
+
+                <div class="reservation-form-column">
+                    <input asp-for="EGN" type="text" id="pin" placeholder="PIN" value="">
+                    <input asp-for="PhoneNumber" type="text" id="tele" placeholder="Telephone" value="">
+                    <input asp-for="Nationality" type="text" id="nation" placeholder="Nationality" value="">
+                </div>
+
+                <div>
+                    <input asp-for="Email" type="text" id="email" placeholder="Email" value="">
+                </div>
+
+                <div>
+                    <select asp-for="TypeOfTicket" id="ticket-type">
+                        <option>Standart Ticket</option>
+                        <option>Buisness Tick</option>
+                    </select>
+                </div>
+
+                <div>
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+
+                <input asp-for="PlaneId" type="hidden" id="id" value="@Model.PlaneId">
+            </form>
+        </div>
+    </div>
+</div>

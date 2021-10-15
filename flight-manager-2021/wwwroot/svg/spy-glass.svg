@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="spy-glass.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="389.80231"
+     inkscape:cy="481.39718"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path854"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.720505;stroke-opacity:1"
+       d="M 142.52628,12.252542 C 83.638746,12.252663 35.901098,59.990578 35.901306,118.87808 c 5.6e-4,16.24545 3.713249,32.27601 10.854589,46.8677 l -77.444183,59.7689 c -8.635802,5.1361 -13.92836,14.44064 -13.929296,24.48829 -6.4e-5,15.73767 12.757921,28.49557 28.495563,28.49532 8.5581674,3.6e-4 16.66331306,-3.84592 22.0752811,-10.47555 L 77.546107,203.41471 c 18.6337,14.32312 41.477673,22.08839 64.980173,22.08847 58.8876,2.5e-4 106.62554,-47.7375 106.62559,-106.6251 C 249.15208,59.990313 201.41406,12.252291 142.52628,12.252542 Z m 5e-5,38.50608 c 37.62148,-3.72e-4 68.11994,30.497924 68.11969,68.119428 -1e-5,37.62139 -30.49839,68.11938 -68.11969,68.119 -37.62111,-2e-5 -68.118963,-30.49789 -68.118975,-68.119 -2.51e-4,-37.621223 30.497685,-68.119412 68.118975,-68.119428 z"
+       sodipodi:nodetypes="ccccccccsccccccc" />
+  </g>
+</svg>

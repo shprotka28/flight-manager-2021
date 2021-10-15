@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg962"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="person.svg">
+  <defs
+     id="defs956" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.32761841"
+     inkscape:cx="158.05697"
+     inkscape:cy="671.37215"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata959">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path964"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.514313;stroke-opacity:1"
+       d="M 106.73016,6.578112 A 66.499916,66.499916 0 0 0 40.432624,73.077194 66.499916,66.499916 0 0 0 78.982718,133.41874 c -0.15094,14.95685 -7.001849,39.16173 -49.343496,40.79695 -61.564965,2.37733 -48.099983,95.17223 -48.099983,95.17223 H 233.90806 c 0,0 13.46491,-92.7949 -48.09988,-95.17223 -43.08264,-1.66365 -49.41286,-26.68041 -49.3364,-41.55943 a 66.499916,66.499916 0 0 0 36.96029,-59.579066 66.499916,66.499916 0 0 0 -66.49999,-66.499082 66.499916,66.499916 0 0 0 -0.20192,0 z" />
+  </g>
+</svg>

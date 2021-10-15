@@ -1,0 +1,75 @@
+/*--Content--*/
+.flight-content {
+	color: inherit;
+	width: 95%;
+	margin: auto;
+	box-shadow: 0 1px 5px 0 rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+.content-header{
+	color: inherit;
+	height: 3rem;
+	max-height: 3rem;
+	overflow: hidden;
+	background-color: rgba(230, 230, 230, 0.863); 
+	border-radius: 10px 10px 0px 0px; 
+	display: grid; 
+	grid-template-columns: 14.9% 13.55% 19.6% 19.7% 15.4% 16.8%;
+}
+
+.content-header-item{
+	padding-top: 0.7rem;
+	color: inherit;
+	border-style: solid; 
+	border-color: rgba(255, 255, 255, 0.096);  
+	border-width: 1px;
+	text-align: center;
+}
+
+.content-hero-flight{
+	color: inherit;
+	width: 100%;
+	height: 3rem;
+	background-color: rgba(214, 214, 214, 0.863); 
+	display: grid; 
+	grid-template-columns: 14.9% 13.55% 19.6% 19.7% 15.4% 16.8%;
+}
+
+	.content-hero-flight:last-child{
+		border-radius: 0px 0px 10px 10px;
+	}
+
+.content-hero-flight-item{
+	color: inherit;
+	text-align: center;
+	border-bottom-style: solid; 
+	border-color: rgba(255, 255, 255, 0.226);  
+	border-width: 1px;
+}
+
+	.content-hero-flight-item p{
+		margin: 0.8rem 0px 0px 0px;
+	}
+	.content-hero-flight:last-child .content-hero-flight-item:last-of-type{
+		border-radius: 0px 0px 10px 00px;
+	}
+
+	.content-hero-flight:last-child .content-hero-flight-item:nth-last-child(6){
+		border-radius: 0px 0px 0px 10px;
+	}
+
+.content-hero-flight-button{
+	color: #313131;
+	margin-top: 0.5rem;
+	padding: 0.4rem 1.6rem 0.4rem 1.6rem;
+	background-color: rgb(214, 214, 214);
+	border-radius: 0.7rem;
+	border: 1px solid transparent;
+	cursor: pointer;
+	transition: background-color 150ms ease-in-out 100ms
+}
+
+	.content-hero-flight-button:hover{
+		background-color: rgb(153, 153, 153);
+	}

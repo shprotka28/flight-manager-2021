@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - flight_manager_2021</title>
+    <link rel="stylesheet" href="~/css/shared.css" />
+    <link rel="stylesheet" href="~/css/flights-content.css" />
+    <link rel="stylesheet" href="~/css/reservation-content.css" />
+</head>
+
+
+<body>
+    <!-- Background -->
+    <div class="background">
+        <img src="~/img/airplane2.jpg" class="background-image">
+        <div class="background-vignette"></div>
+    </div>
+    <!-- End of Backgroud -->
+    
+    <!-- Header -->
+    <div class="header">
+        <div class="header-options">
+            <a class="container-item" asp-controller="Home" asp-action="Index">
+                <img src="~/svg/airplane.svg" class="svg"><span>Flights</span>
+            </a>
+            <a class="container-item" asp-controller="Login" asp-action="Index">
+                <img src="~/svg/person.svg" class="svg"><span>Login</span>
+            </a>
+            <!--<div class="container-item">
+                <img src="~/svg/spy-glass.svg" class="svg">
+                <input type="text" placeholder="Search flights" class="search">
+            </div>-->
+        </div>
+		<div id="logo" class="header-container-logo">
+			<img src="~/svg/logo.svg" style="width: 1.5rem; height: 1.5rem;">
+		</div>
+    </div>
+    <!-- End of Header-->
+    
+    <!-- Hero -->
+    <div class="content-incasing">
+        @RenderBody()
+    </div>
+    <!-- End of Hero -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <span style="margin: auto; color: white;">OMG this is a Footer</span>
+    </div>
+    <!-- End of Footer -->
+</body>
+</html>

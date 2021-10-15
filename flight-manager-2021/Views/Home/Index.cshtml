@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Flights";
+}
+@model flight_manager_2021.Models.Flights.FlightsIndexViewModel
+
+<div class="flight-content">
+    <div class="content-header">
+        <div class="content-header-item">
+            From
+        </div>
+        <div class="content-header-item">
+            To
+        </div>
+        <div class="content-header-item">
+            Take off Time
+        </div>
+        <div class="content-header-item">
+            Landing Time
+        </div>
+        <div class="content-header-item">
+            Seats
+        </div>
+        <div class="content-header-item">
+            Reserve
+        </div>
+    </div>
+
+    @for (int i = 0; i < Model.Items.Length; i++)
+    {
+        <div class="content-hero-flight">
+            <div class="content-hero-flight-item">
+                <p>@Html.DisplayFor(model => model.Items[i].LocationFrom)</p>
+            </div>
+            <div class="content-hero-flight-item">
+                <p>@Html.DisplayFor(model => model.Items[i].LocationTo)</p>
+            </div>
+            <div class="content-hero-flight-item">
+                <p>@Html.DisplayFor(model => model.Items[i].Going)</p>
+            </div>
+            <div class="content-hero-flight-item">
+                <p>@Html.DisplayFor(model => model.Items[i].Return)</p>
+            </div>
+            <div class="content-hero-flight-item">
+                @{ 
+                    var capacity = Model.Items[i].CapacityOfBusinessClass + Model.Items[i].CapacityOfEconomyClass;
+                    var count = Model.Items[i].CountOfBusinessClass + Model.Items[i].CountOfEconomyClass;
+                }
+                <p>@count/@capacity</p>
+            </div>
+            <div class="content-hero-flight-item">
+                @{
+                    var parameters = new Dictionary<string, string>
+                            {
+                        {"id", Model.Items[i].Id.ToString()},
+                        {"from", Model.Items[i].LocationFrom},
+                        {"to", Model.Items[i].LocationTo},
+                        {"takeofftime", Model.Items[i].Going.ToString()},
+                        {"landingtime", Model.Items[i].Return.ToString()},
+                        {"bcapacity", Model.Items[i].CapacityOfBusinessClass.ToString()},
+                        {"bcount", Model.Items[i].CountOfBusinessClass.ToString()},
+                        {"scapacity", Model.Items[i].CapacityOfEconomyClass.ToString()},
+                        {"scount", Model.Items[i].CountOfEconomyClass.ToString()},
+                    };
+                }
+
+                @if (count < capacity)
+                {
+                    <a asp-route="create" asp-all-route-data="parameters">
+                        <input class="content-hero-flight-button" type="button" value="Reserve">
+                    </a>
+                }
+                else
+                {
+                    <input class="content-hero-flight-button" type="button" value="Reserve" disabled>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+
